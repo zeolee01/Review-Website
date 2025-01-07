@@ -9,7 +9,6 @@
     "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "concurrently": "^7.0.0"
-  },
-  "devDependencies": {}
+    "concurrently": "^7.6.0"
+  }
 }
