@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run start --prefix backend\"",
     "build": "npm install --prefix backend && npm install --prefix client && npm run build --prefix client",
     "start": "npm run build && npm run start-backend",
     "start-backend": "npm start --prefix backend",
