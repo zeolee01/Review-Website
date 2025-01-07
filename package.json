@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "npm install --prefix api && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix client && npm run build --prefix client",
     "start": "npm run build && npm run start-backend",
-    "start-backend": "npm start --prefix api",
+    "start-backend": "npm start --prefix backend",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
